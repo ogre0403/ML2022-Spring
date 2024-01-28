@@ -1,0 +1,27 @@
+{
+    "name": "pytorch-gpu",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "CUDA_VER": "12.1.0",
+            "UBUNTU_VER": "22.04",
+            "IMAGE_TYPE": "base"
+        }
+    },
+    "customizations":{
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "isudox.vscode-jetbrains-keybindings",
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "mathematic.vscode-pdf",
+                "janisdd.vscode-edit-csv"
+            ]
+        }
+    },
+    "runArgs": [
+        "--gpus=all",
+        "--env-file=.devcontainer/devcontainer.env"
+    ]
+}
