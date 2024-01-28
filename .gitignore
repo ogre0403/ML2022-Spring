@@ -1,0 +1,5 @@
+**/runs
+**models/
+
+# ignore HW01 data
+HW01/pred.csv

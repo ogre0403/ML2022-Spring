@@ -16,7 +16,8 @@
                 "ms-python.python",
                 "ms-toolsai.jupyter",
                 "mathematic.vscode-pdf",
-                "janisdd.vscode-edit-csv"
+                "janisdd.vscode-edit-csv",
+                "Leonardo16.nvidia-gpu"
             ]
         }
     },
